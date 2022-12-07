@@ -3,10 +3,48 @@ body {
 }
 
 img {
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
 .image-center {
     display: flex;
     justify-content: center;
+}
+
+button {
+  padding: 10px;
+  display: block;
+  margin: 50px auto;
+  width: 300px;
+  border: none;
+  border-radius: 50%;
+	background-color: hsla(308, 100%, 46%, 0.6);
+	box-shadow: 2px 2px 1px 1px hsla(184, 100%, 46%, 0.877);
+}
+
+button:hover {
+  padding: 10px;
+  display: block;
+  margin: 50px auto;
+  width: 300px;
+	border: none;
+	border-radius: 50%;
+	background-color: hsla(184, 100%, 46%, 0.5);
+	transition: ease-in-out 0.5s all;
+	box-shadow: 1px 2px 1px 1px hsla(308, 100%, 46%, 0.6);;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	font-size: 14px;
 }
