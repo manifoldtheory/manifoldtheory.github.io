@@ -12,21 +12,21 @@ img {
 }
 
 button {
-    padding: 10px;
-    display: block;
-    margin: 50px auto;
-    width: 300px;
-	border: none;
-	border-radius: 50%;
+  padding: 10px;
+  display: block;
+  margin: 50px auto;
+  width: 300px;
+  border: none;
+  border-radius: 50%;
 	background-color: hsla(308, 100%, 46%, 0.6);
 	box-shadow: 2px 2px 1px 1px hsla(184, 100%, 46%, 0.877);
 }
 
 button:hover {
-    padding: 10px;
-    display: block;
-    margin: 50px auto;
-    width: 300px;
+  padding: 10px;
+  display: block;
+  margin: 50px auto;
+  width: 300px;
 	border: none;
 	border-radius: 50%;
 	background-color: hsla(184, 100%, 46%, 0.5);
@@ -34,14 +34,11 @@ button:hover {
 	box-shadow: 1px 2px 1px 1px hsla(308, 100%, 46%, 0.6);;
 }
 
-
 a {
 	text-decoration: none;
 	font-weight: bold;
 	color: white;
 }
-
-
 
 footer {
 	display: flex;
